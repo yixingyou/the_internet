@@ -86,6 +86,7 @@
 }
 h3{
     color: #25679F;
+    margin: 5px 0px;
 }
 .highlight{
     font-weight: bold;
@@ -99,8 +100,33 @@ ul{
 img.intro{
     display: block;
     width: 300px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 .main-content p{
     margin: 5px 0px;
+}
+ol{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hero{
+    margin-top: 25px;
+    border: 5px solid #0085E0;
+    border-bottom: none;
+    box-shadow: 2px 2px rgb(119, 119, 119);
+    padding: 10px;
+}
+.hero img{
+    display: inline-block;
+    width: 11%;
+    margin: 10px;
+    vertical-align: top;
+}
+.message{
+    display: inline-block;
+    width: 84%;
+    margin-top: 7px;
+    margin-left: 20px;
+    vertical-align: text-top;
 }
