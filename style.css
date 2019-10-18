@@ -44,7 +44,7 @@
     width: 73.5%;
     margin: 0px 10px;
     vertical-align: top;
-    background-image: linear-gradient(#E3E3E3,white);
+    background-image: linear-gradient(#E3E3E3,white,white)
 }
 .dir{
     display: inline-block;
@@ -93,4 +93,14 @@ h3{
 .detail{
     color: #00C0DF;
 }
-
+ul{
+    margin-left: 50px;
+}
+img.intro{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+.main-content p{
+    margin: 5px 0px;
+}
