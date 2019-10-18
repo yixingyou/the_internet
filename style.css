@@ -109,14 +109,16 @@ a{
     display: inline-block;
     vertical-align: top;
     padding-top: 5px;
-    padding-right:50%;
+    padding-right:48.5%;
     margin-right: 150px;
 }
 .dir img{
     width: 20px;
+    margin-right: 10px;
 }
 .dir span{
     color: #25679F;
+    font-size: 20px;
 }
 #iconholder{
     display: inline-block;
