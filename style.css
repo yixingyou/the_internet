@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dotted red;
+    font-family: sans-serif;
+}
+/* Reset */
+
+#header img{
+    margin-bottom: -10px;
+    width: 120px;
+    float: left;
+}
+#header h1{
+    display: inline-block;
+    padding: 25px 5px;
+    font-weight: normal;
+    font-size: 60px;
+}
+#header h2{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    margin-top: -18px;
+    padding: 13px;
+    padding-left: 20px;;
+    background-image: linear-gradient(#296AA0,#497DA9,#296AA0);
+}
+#header span{
+    color: #22659E;
+}
+#container {
+    background-image: linear-gradient(#E4E4E4, white);
+}
+#sidebar{
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 40px;
+}
+#content{
+    display: inline-block;
+    width: 73.5%;
+    margin: 0px 10px;
+    vertical-align: top;
+    background-image: linear-gradient(#E3E3E3,white);
+}
+.dir{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-right:50%;
+    margin-right: 150px;
+}
+.dir img{
+    width: 20px;
+}
+.dir span{
+    color: #25679F;
+}
+#iconholder{
+    display: inline-block;
+}
+#iconholder img{
+    width: 50px;
+    float:center;
+    /* align img inside div */
+}
+.info{
+    text-align: right;
+    display: inline-block;
+}
+.info p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.info span{
+    font-size: 30px;
+}
+.main-content{
+    margin-top: 20px;
+    border-top: 1px solid silver
+    ;
+    padding-top: 10px;
+}
+h3{
+    color: #25679F;
+}
+.highlight{
+    font-weight: bold;
+}
+.detail{
+    color: #00C0DF;
+}
+
