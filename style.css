@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
     font-family: sans-serif;
 }
 /* Reset */
@@ -39,6 +39,64 @@
     padding: 10px;
     margin-right: 40px;
 }
+#resource h4{
+    font-size: 20px;
+    margin: 8px 0px;
+}
+#resource p{
+    font-weight: bold;
+}
+.splash{
+    columns: red;
+}
+a{
+    margin: 10px auto;
+    padding: 0.8em;
+    display: block;
+    width: 88%;
+    border-radius: 5px;
+    box-shadow: 2px 2px #B0B0B0;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.orange{
+    background-image: linear-gradient(#EAAC55,#F07400);
+}
+.blue{
+    background-image: linear-gradient(#5D93C0,#2769A1);
+}
+.ads{
+    background-image: url("../images/ad_background.png");
+    background-size: cover;
+    text-align: center;
+    min-height: 380px;
+}
+.ads p{
+    font-size: 24px;
+    color: white;
+    padding: 10px 9px;
+}
+.ads img{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+}
+.ads a{
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    padding: 0.2em;
+    border-radius: 5px;
+    background-image: linear-gradient(#72CFDF,#00C1DF);
+    box-shadow: 2px 2px black;
+}
+.first-child{
+    font-weight: 700;
+}
+.second-child{
+    font-weight: 900;
+}
 #content{
     display: inline-block;
     width: 73.5%;
@@ -46,6 +104,7 @@
     vertical-align: top;
     background-image: linear-gradient(#E3E3E3,white,white)
 }
+
 .dir{
     display: inline-block;
     vertical-align: top;
